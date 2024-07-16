@@ -6,10 +6,7 @@ const digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
 export default class ProfileCustomLink extends Component {
   @service site;
-  @tracked customLinkUrl;
-  @tracked customLinkFieldId;
   @tracked customLinks = [];
-  @tracked showCustomLink = false;
   @tracked user = this.args.model.username;
   @tracked userFields = this.args.model.user_fields;
 
